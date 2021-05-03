@@ -1,23 +1,24 @@
 import { NextPage } from "next";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { getAllOffers } from "../../../../server";
+
+import { getAllArticles } from "../../server";
 
 const LocalOffers: NextPage = () => {
-  const [offers, setOffers] = useState<any>([]);
+  const [articles, setArticles] = useState<any>([]);
   useEffect(() => {
-    getAllOffers().then((res) => {
-      setOffers(res);
+    getAllArticles().then((res) => {
+      setArticles(res);
     });
   }, []);
-  if (!offers.length) {
+  if (!articles.length) {
     return <p>Loading...</p>;
   }
   return (
     <ul>
-      {offers.map((o) => (
+      {articles.map((o) => (
         <li>
-          <Link href={`/fr/fr/offers/${o.slug}`} passHref>
+          <Link href={`/articles/${o.slug}`} passHref>
             <a>{o.name}</a>
           </Link>
         </li>
