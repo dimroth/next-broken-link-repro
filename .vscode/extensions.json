@@ -1,0 +1,25 @@
+{
+  "recommendations": [
+    "yzhang.markdown-all-in-one",
+    "dbaeumer.vscode-eslint",
+    "msjsdiag.debugger-for-chrome",
+    "esbenp.prettier-vscode",
+    "vscode-icons-team.vscode-icons",
+    "eamodio.gitlens",
+    "ms-vsliveshare.vsliveshare",
+    "jpoissonnier.vscode-styled-components",
+    "mikestead.dotenv",
+    "coenraads.bracket-pair-colorizer",
+    "editorconfig.editorconfig",
+    "dsznajder.es7-react-js-snippets",
+    "kumar-harsh.graphql-for-vscode",
+    "mgmcdermott.vscode-language-babel",
+    "softwaredotcom.swdc-vscode",
+    "naumovs.color-highlight",
+    "christian-kohler.path-intellisense",
+    "formulahendry.auto-rename-tag",
+    "aaron-bond.better-comments",
+    "shan.code-settings-sync",
+    "wallabyjs.quokka-vscode"
+  ]
+}

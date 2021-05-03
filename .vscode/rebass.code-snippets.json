@@ -1,0 +1,25 @@
+{
+	"Print to console": {
+		"scope": "javascript,typescript",
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	},
+	"Flex direction column": {
+		"prefix": "fdc",
+		"body": [
+			"<Flex flexDirection='column'>$0</Flex>"
+		],
+		"description": "Flex direction column"
+	},
+	"Flex direction row": {
+		"prefix": "fdr",
+		"body": [
+			"<Flex flexDirection='row'>$0</Flex>"
+		],
+		"description": "Flex direction row"
+	}
+}
